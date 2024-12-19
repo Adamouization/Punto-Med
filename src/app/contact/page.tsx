@@ -141,7 +141,7 @@ export default function Contact() {
     <>
       <PageIntro eyebrow="Contact us" title="Let’s work together">
         <p>
-          We are here to assist you with any inquiries or requests. Whether you are looking for more information about our products and services or want to discuss a potential collaboration, we can't wait to hear from you.
+          We are here to assist you with any inquiries or requests. Whether you are looking for more information about our products and services or want to discuss a potential collaboration, we can&#39;t wait to hear from you.
         </p>
       </PageIntro>
 
