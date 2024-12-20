@@ -10,6 +10,7 @@ import { List, ListItem } from '@/components/List'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
+import { StyledList } from '@/components/custom/StyledList';
 import { TagList, TagListItem } from '@/components/TagList'
 import imageLaptop from '@/images/laptop.jpg'
 import imageMeeting from '@/images/meeting.jpg'
@@ -54,19 +55,22 @@ function Section({
 }
 
 function Discover() {
+
+  const items = [
+    'Gas cookers',
+    'Refrigerators',
+    'Washing machines',
+    'Bottle coolers',
+    'Freezers'
+  ];
+  
   return (
     <Section title="Supply" image={{ src: imageWhiteboard }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           We specialize in providing premium components and raw materials for the production of:
         </p>
-        <ul>
-          <li>Gas cookers</li>
-          <li>Refrigerators</li>
-          <li>Washing machines</li>
-          <li>Bottle coolers</li>
-          <li>Freezers</li>
-        </ul>
+        <StyledList items={items} />
         <p>
           Our materials and components are sourced to ensure durability, efficiency, and compliance with global quality standards, helping manufacturers achieve excellence in their products.
         </p>
@@ -91,17 +95,20 @@ function Discover() {
 }
 
 function Build() {
+
+  const items = [
+    'Gas cookers',
+    'Refrigerators',
+    'Washing machines'
+  ];
+
   return (
     <Section title="Finished and Semi-Finished Products" image={{ src: imageLaptop, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           We cater to manufacturers with both Complete Knock-Down (CKD) and Completely Built-Up (CBU) solutions for:
         </p>
-        <ul>
-          <li>Gas cookers</li>
-          <li>Refrigerators</li>
-          <li>Washing machines</li>
-        </ul>
+        <StyledList items={items} />
         <p>
           Whether you need fully assembled units or parts for on-site assembly, we provide flexible options to fit your manufacturing requirements.
         </p>
