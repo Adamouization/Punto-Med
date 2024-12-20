@@ -47,7 +47,7 @@ function Culture() {
             Building strong partnerships across continents for mutual growth and success.
           </GridListItem>
           <GridListItem title="Customer-Centric Approach" invert>
-            Prioritizing our clients' needs with tailored solutions and dedicated support.
+            Prioritizing our clients&#39; needs with tailored solutions and dedicated support.
           </GridListItem>
           <GridListItem title="Integrity and Trust" invert>
             Upholding transparency, honesty, and reliability in every interaction.
@@ -67,14 +67,6 @@ export const metadata: Metadata = {
 export default async function About() {
   let blogArticles = (await loadArticles()).slice(0, 2)
 
-  const items = [
-    'Development of joint venture factories for the production of household appliances',
-    'Supply of turnkey plants for the production of household appliances',
-    'Supply of turnkey plants for the production of isothermal bodies for lorries',
-    'Extrusion lines for the production of XPS sheets for thermoforming purposes (food trays) and XPS panels for construction, using the expanded foam technology',
-    'Supply of raw materials and components for the household appliances'
-  ];
-
   return (
     <>
       <PageIntro
@@ -87,9 +79,7 @@ export default async function About() {
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Punto Med is an international company founded in 1984, with headquarters in the Principality of Monaco. We operate in a variety of industrial fields such as:
-          </p>
-          <StyledList items={items} />
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Ultrices risus litora pulvinar massa inceptos leo amet. Consectetur magna aenean integer scelerisque vulputate nullam dui elit semper. Elementum primis blandit nulla elementum felis faucibus augue faucibus dapibus. Justo magna dis sapien ornare nisi magnis primis auctor a! Interdum ipsum curae molestie elit cursus. Enim in semper tempor nec id maecenas lectus. Netus sollicitudin morbi enim rutrum sed scelerisque integer vestibulum. Posuere nec fusce; vehicula nibh aenean venenatis nullam ultricies.          </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
