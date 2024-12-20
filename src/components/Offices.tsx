@@ -33,11 +33,20 @@ export function Offices({
     <ul role="list" {...props}>
       <li>
         <Office name="Monaco" invert={invert}>
-        Roc Fleuri
+          Roc Fleuri
           <br />
           1, Rue du Tenao
           <br />
           98000 Monaco
+        </Office>
+      </li>
+      <li>
+        <Office name="China" invert={invert}>
+          D-903, No.350-5 XinGangZhong Road
+          <br />
+          Guangzhou
+          <br />
+          China
         </Office>
       </li>
     </ul>
