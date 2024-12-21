@@ -9,27 +9,20 @@ import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
-import logoBrightPath from '@/images/clients/bright-path/logo-light.svg'
-import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg'
-import logoGreenLife from '@/images/clients/green-life/logo-light.svg'
-import logoHomeWork from '@/images/clients/home-work/logo-light.svg'
-import logoMailSmirk from '@/images/clients/mail-smirk/logo-light.svg'
-import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.svg'
-import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
-import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
-import logoUnseal from '@/images/clients/unseal/logo-light.svg'
+import logo1968 from '@/images/projects/building-office.svg'
+import logo1985 from '@/images/projects/wrench.svg'
+import logo1989 from '@/images/projects/computer.svg'
+import logo1993_1 from '@/images/projects/fire.svg'
+import logo1993_2 from '@/images/projects/truck.svg'
 import imageFactory from '@/images/factory_unsplash.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
-  ['Phobia', logoPhobiaLight],
-  ['Family Fund', logoFamilyFund],
-  ['Unseal', logoUnseal],
-  ['Mail Smirk', logoMailSmirk],
-  ['Home Work', logoHomeWork],
-  ['Green Life', logoGreenLife],
-  ['Bright Path', logoBrightPath],
-  ['North Adventures', logoNorthAdventures],
+  ['Test', logo1968],
+  ['Test', logo1985],
+  ['Test', logo1989],
+  ['Test', logo1993_1],
+  ['Test', logo1993_2],
 ]
 
 function Clients() {
@@ -69,13 +62,11 @@ function CaseStudies({
   return (
     <>
       <SectionIntro
-        title="Harnessing technology for a brighter future"
+        title="Delivering Real Value"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We believe technology is the answer to the world’s greatest
-          challenges. It’s also the cause, so we find ourselves in bit of a
-          catch 22 situation.
+          At Punto Med, we are committed to delivering real value to our customers through expertise, innovation, and unwavering dedication.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -130,7 +121,7 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-        At Punto Med, we are dedicated to supporting home appliance manufacturers with high-quality components, raw materials, and assembly solutions. With decades of experience and an extensive global network, we deliver reliable, tailored services to meet your production needs.
+          At Punto Med, we are dedicated to supporting home appliance manufacturers with high-quality components, raw materials, and assembly solutions. With decades of experience and an extensive global network, we deliver reliable, tailored services to meet your production needs.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -174,10 +165,10 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-          Your Partner in Excellence for Home Appliances
+            Your Partner in Excellence for Home Appliances
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-          Rooted in a rich legacy, we specialize in premium components, assembly solutions, and tailored support for gas cookers, refrigerators, washing machines, and more.
+            Rooted in a rich legacy, we specialize in premium components, assembly solutions, and tailored support for gas cookers, refrigerators, washing machines, and more.
           </p>
         </FadeIn>
       </Container>
@@ -188,7 +179,7 @@ export default async function Home() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Phobia', logo: logoPhobiaDark }}
+        client={{ name: 'Test', logo: logo1968 }}
       >
         The team at Studio went above and beyond with our onboarding, even
         finding a way to access the user’s microphone without triggering one of

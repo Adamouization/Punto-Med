@@ -12,26 +12,26 @@ const navigation = [
       { title: 'About Us', href: '/about' },
       { title: 'Our Products', href: '/products' },
       { title: 'Our Services', href: '/process' },
+      { title: 'Our Projects', href: '/work' },
       { title: 'Contact us', href: '/contact' },
-      // { title: 'Blog', href: '/blog' },
     ],
   },
-  {
-    title: 'Work',
-    links: [
-      { title: 'FamilyFund', href: '/work/family-fund' },
-      { title: 'Unseal', href: '/work/unseal' },
-      { title: 'Phobia', href: '/work/phobia' },
-      {
-        title: (
-          <>
-            See all <span aria-hidden="true">&rarr;</span>
-          </>
-        ),
-        href: '/work',
-      },
-    ],
-  },
+  // {
+  //   title: 'Work',
+  //   links: [
+  //     { title: 'FamilyFund', href: '/work/family-fund' },
+  //     { title: 'Unseal', href: '/work/unseal' },
+  //     { title: 'Phobia', href: '/work/phobia' },
+  //     {
+  //       title: (
+  //         <>
+  //           See all <span aria-hidden="true">&rarr;</span>
+  //         </>
+  //       ),
+  //       href: '/work',
+  //     },
+  //   ],
+  // },
   // {
   //   title: 'Connect',
   //   links: socialMediaProfiles,
