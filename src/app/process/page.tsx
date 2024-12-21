@@ -177,11 +177,6 @@ function Values() {
         </p>
       </SectionIntro>
 
-      {/* : 
-    ⁃    : 
-    ⁃    : 
-    ⁃    :  */}
-
       <Container className="mt-24">
         <GridList>
           <GridListItem title="Extensive Experience">
