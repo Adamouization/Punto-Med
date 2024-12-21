@@ -140,7 +140,8 @@ function Navigation() {
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/process">Our Services</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
+        {/* <NavigationItem href="/blog">Blog</NavigationItem> */}
+        <NavigationItem href="/products">Our Products</NavigationItem>
       </NavigationRow>
     </nav>
   )

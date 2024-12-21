@@ -3,9 +3,19 @@ import Link from 'next/link'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { LogoPngAndText } from '@/components/Logo'
-import { socialMediaProfiles } from '@/components/SocialMedia'
+// import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
+  {
+    title: 'Company',
+    links: [
+      { title: 'About Us', href: '/about' },
+      { title: 'Our Products', href: '/products' },
+      { title: 'Our Services', href: '/process' },
+      { title: 'Contact us', href: '/contact' },
+      // { title: 'Blog', href: '/blog' },
+    ],
+  },
   {
     title: 'Work',
     links: [
@@ -22,19 +32,10 @@ const navigation = [
       },
     ],
   },
-  {
-    title: 'Company',
-    links: [
-      { title: 'About', href: '/about' },
-      { title: 'Process', href: '/process' },
-      { title: 'Blog', href: '/blog' },
-      { title: 'Contact us', href: '/contact' },
-    ],
-  },
-  {
-    title: 'Connect',
-    links: socialMediaProfiles,
-  },
+  // {
+  //   title: 'Connect',
+  //   links: socialMediaProfiles,
+  // },
 ]
 
 function Navigation() {
