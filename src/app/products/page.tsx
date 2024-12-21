@@ -56,21 +56,31 @@ function Section({
 
 function GasCookers() {
 
-  // const gazCookerSizes = [
-  //   '20”', 
-  //   '24”',
-  //   '30”'
-  // ];
+  // Glass cover, Back-guard, Cast Iron Grids, Enameled Grids, Ignition, Light, Oven Grill, Rotisserie, safety on the burners.
+  // Color : White, Black, Black Matte, Silver Matte, Full Stainless steel
+  // Personalized Handles, Knobs, Feet
+
 
   return (
     <Section title="Gas Cookers" image={{ src: imageWhiteboard, shape: 0 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Our gas cookers combine efficiency and versatility, and are available in multiple sizes to suit all your needs.
+          Our gas cookers combine efficiency and versatility, and are available in multiple sizes and options to suit all your market needs:
         </p>
-        <p>
-          Sizes: 20”, 24”, and 30”.
-        </p>
+        <List className="mt-8">
+          <ListItem title="Sizes">
+            20”, 24”, and 30”.
+          </ListItem>
+          <ListItem title="Customizations">
+            Glass cover, Back-guard, Cast Iron Grids, Enameled Grids, Ignition, Light, Oven Grill, Rotisserie, safety on the burners.
+          </ListItem>
+          <ListItem title="Colors">
+            White, Black, Black Matte, Silver Matte, Full Stainless steel.
+          </ListItem>
+          <ListItem title="Designs">
+            Personalized Handles, Knobs, Feet
+          </ListItem>
+        </List>
         <p>
           Built for durability and user convenience, perfect for domestic and commercial applications.
         </p>
@@ -80,19 +90,26 @@ function GasCookers() {
 }
 
 function TableCookers() {
-
   return (
     <Section title="Table Cookers" image={{ src: imageLaptop, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Compact and efficient, our table cookers are designed for smaller spaces without compromising performance.
         </p>
-        <p>
-          Options: 2-burner and 4-burner configurations.
-        </p>
-        <p>
-          Ideal for portable or limited-space cooking requirements.
-        </p>
+        <List className="mt-8">
+          <ListItem title="Options">
+            Available in different sizes with 1 burner to 4 burners, ideal for portable or limited-space cooking requirements.
+          </ListItem>
+          <ListItem title="Colors">
+            White, Black, Black Matte, Silver Matte, Full Stainless steel
+          </ListItem>
+          <ListItem title="Optional">
+            Ignition, working top cover
+          </ListItem>
+          <ListItem title="Designs">
+            Personalized knobs
+          </ListItem>
+        </List>
       </div>
     </Section>
   )
@@ -195,7 +212,7 @@ function WhyChooseOurProducts() {
 }
 
 export const metadata: Metadata = {
-  title: 'Our Services',
+  title: 'Our Products',  // todo
   description:
     'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
 }
