@@ -8,7 +8,6 @@ import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
-import { Testimonial } from '@/components/Testimonial'
 import { TestimonialSimple } from '@/components/custom/TestimonialSimple'
 import logo1968 from '@/images/projects/building-office.svg'
 import logo1985 from '@/images/projects/wrench.svg'
@@ -18,42 +17,42 @@ import logo1993_2 from '@/images/projects/truck.svg'
 import imageFactory from '@/images/factory_unsplash.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
-const clients = [
-  ['Test', logo1968],
-  ['Test', logo1985],
-  ['Test', logo1989],
-  ['Test', logo1993_1],
-  ['Test', logo1993_2],
-]
+// const clients = [
+//   ['Test', logo1968],
+//   ['Test', logo1985],
+//   ['Test', logo1989],
+//   ['Test', logo1993_1],
+//   ['Test', logo1993_2],
+// ]
 
-function Clients() {
-  return (
-    <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
-      <Container>
-        <FadeIn className="flex items-center gap-x-8">
-          <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We’ve worked with hundreds of amazing people
-          </h2>
-          <div className="h-px flex-auto bg-neutral-800" />
-        </FadeIn>
-        <FadeInStagger faster>
-          <ul
-            role="list"
-            className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
-          >
-            {clients.map(([client, logo]) => (
-              <li key={client}>
-                <FadeIn>
-                  <Image src={logo} alt={client} unoptimized />
-                </FadeIn>
-              </li>
-            ))}
-          </ul>
-        </FadeInStagger>
-      </Container>
-    </div>
-  )
-}
+// function Clients() {
+//   return (
+//     <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
+//       <Container>
+//         <FadeIn className="flex items-center gap-x-8">
+//           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
+//             We’ve worked with hundreds of amazing people
+//           </h2>
+//           <div className="h-px flex-auto bg-neutral-800" />
+//         </FadeIn>
+//         <FadeInStagger faster>
+//           <ul
+//             role="list"
+//             className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
+//           >
+//             {clients.map(([client, logo]) => (
+//               <li key={client}>
+//                 <FadeIn>
+//                   <Image src={logo} alt={client} unoptimized />
+//                 </FadeIn>
+//               </li>
+//             ))}
+//           </ul>
+//         </FadeInStagger>
+//       </Container>
+//     </div>
+//   )
+// }
 
 function CaseStudies({
   caseStudies,
@@ -174,9 +173,9 @@ export default async function Home() {
         </FadeIn>
       </Container>
 
-      <Clients />
+      {/* <Clients /> */}
 
-      <CaseStudies caseStudies={caseStudies} />
+      <Services />
 
       <TestimonialSimple
         className="mt-24 sm:mt-32 lg:mt-40"
@@ -184,7 +183,7 @@ export default async function Home() {
         Punto Med's expertise and commitment to quality have been invaluable. Their partnership has helped us deliver exceptional appliances, and we look forward to continuing our collaboration.
       </TestimonialSimple>
 
-      <Services />
+      <CaseStudies caseStudies={caseStudies} />
 
       <ContactSection />
     </>
