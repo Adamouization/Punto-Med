@@ -70,7 +70,10 @@ function Header({
           onMouseLeave={() => setLogoHovered(false)}
           className="flex items-center"
         >
-          <LogoPngAndText textSize={3} />
+          <LogoPngAndText 
+            textSize={3}
+            className={expanded ? 'text-white' : 'text-neutral-950'}  // make logo white when menu open
+          />
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href="/contact" invert={invert}>
