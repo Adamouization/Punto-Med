@@ -84,7 +84,7 @@ export function LogoPngAndText({ textSize = 2, className }: { textSize?: number;
         width={32}
         height={32}
       />
-      <h1 className={`ml-3 font-display font-medium tracking-tight [text-wrap:balance] sm:text-${textSize}xl`}>
+      <h1 className={`ml-3 font-display font-medium tracking-tight transition-colors duration-300 [text-wrap:balance] sm:text-${textSize}xl`}>
         Punto Med S.A.M.
       </h1>
     </div>
