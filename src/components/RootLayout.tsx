@@ -71,7 +71,7 @@ function Header({
           className="flex items-center"
         >
           <LogoPngAndText 
-            textSize={3}
+            textSize={5}
             className={expanded ? 'text-white' : 'text-neutral-950'}  // make logo white when menu open
           />
         </Link>

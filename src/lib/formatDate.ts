@@ -4,7 +4,7 @@ export function formatDate(dateString: string) {
 
   return new Date(`${dateString}Z`).toLocaleDateString('en-US', {
     day: hasDay ? 'numeric' : undefined,
-    month: 'long',
+    // month: 'long',
     year: 'numeric',
     timeZone: 'UTC',
   })
