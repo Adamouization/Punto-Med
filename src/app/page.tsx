@@ -180,7 +180,7 @@ export default async function Home() {
       <TestimonialSimple
         className="mt-24 sm:mt-32 lg:mt-40"
       >
-        Punto Med's expertise and commitment to quality have been invaluable. Their partnership has helped us deliver exceptional appliances, and we look forward to continuing our collaboration.
+        Punto Med&#39;s expertise and commitment to quality have been invaluable. Their partnership has helped us deliver exceptional appliances, and we look forward to continuing our collaboration.
       </TestimonialSimple>
 
       <CaseStudies caseStudies={caseStudies} />
