@@ -22,7 +22,7 @@ function CaseStudies({
     <Container className="mt-40">
       <FadeIn>
         <h2 className="font-display text-2xl font-semibold text-neutral-950">
-          Case studies
+          Past Projects
         </h2>
       </FadeIn>
       <div className="mt-10 space-y-20 sm:space-y-24 lg:space-y-32">
@@ -65,9 +65,9 @@ function CaseStudies({
                   <div className="mt-8 flex">
                     <Button
                       href={caseStudy.href}
-                      aria-label={`Read case study: ${caseStudy.client}`}
+                      aria-label={`Read projecty: ${caseStudy.client}`}
                     >
-                      Read case study
+                      Read project
                     </Button>
                   </div>
                   {caseStudy.testimonial && (
@@ -137,7 +137,7 @@ export default async function Work() {
   return (
     <>
       <PageIntro
-        eyebrow="Our work"
+        eyebrow="Our projects"
         title="Delivering Real Value"
       >
         <p>
