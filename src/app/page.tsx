@@ -9,6 +9,7 @@ import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
+import { TestimonialSimple } from '@/components/custom/TestimonialSimple'
 import logo1968 from '@/images/projects/building-office.svg'
 import logo1985 from '@/images/projects/wrench.svg'
 import logo1989 from '@/images/projects/computer.svg'
@@ -177,14 +178,11 @@ export default async function Home() {
 
       <CaseStudies caseStudies={caseStudies} />
 
-      <Testimonial
+      <TestimonialSimple
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Test', logo: logo1968 }}
       >
-        The team at Studio went above and beyond with our onboarding, even
-        finding a way to access the user’s microphone without triggering one of
-        those annoying permission dialogs.
-      </Testimonial>
+        Punto Med's expertise and commitment to quality have been invaluable. Their partnership has helped us deliver exceptional appliances, and we look forward to continuing our collaboration.
+      </TestimonialSimple>
 
       <Services />
 
