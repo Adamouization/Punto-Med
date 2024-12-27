@@ -14,7 +14,14 @@ const navigation = [
       { title: 'Our Products', href: '/products' },
       { title: 'Our Services', href: '/process' },
       { title: 'Our Projects', href: '/work' },
+    ],
+  },
+  {
+    title: 'Utilities',
+    links: [
       { title: 'Contact us', href: '/contact' },
+      { title: 'Email', href: 'mailto:hello@puntomed.com' },
+      { title: 'Privacy Policy', href: '/privacy-policy' },
     ],
   },
   // {
@@ -141,7 +148,7 @@ export function Footer() {
           <LogoPngAndText textSize={2} />
           </Link>
           <p className="text-sm text-neutral-700">
-            © Punto Med S.A.M. {new Date().getFullYear()}
+            © Punto Med S.A.M. 1998-{new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>
