@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
       <FadeIn>
         <PageIntro eyebrow="Effective Date: December 27, 2024" title="Privacy Policy">
           <p>
-            Punto Med S.A.M. ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your information when you visit our website, <a href="https://puntomed.com/" className="text-blue-500 hover:underline">https://puntomed.com/</a>.
+            Punto Med S.A.M. (&#34;we,&#34; &#34;our,&#34; or &#34;us&#34;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your information when you visit our website, <a href="https://puntomed.com/" className="text-blue-500 hover:underline">https://puntomed.com/</a>.
           </p>
           <h3 className="mt-6 font-display text-2xl font-semibold text-neutral-950">1. Information We Collect</h3>
           <ul className="list-disc list-inside">
