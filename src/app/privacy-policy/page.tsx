@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
           </ul>
           <h2 className="mt-6 font-display text-2xl font-semibold text-neutral-950">3. Data Sharing</h2>
           <p>We do not share your personal information with any third parties.</p>
-          <h2 className="mt-6 font-display text-2xl font-semibold text-neutral-950">4. Children's Privacy</h2>
+          <h2 className="mt-6 font-display text-2xl font-semibold text-neutral-950">4. Children&#39;s Privacy</h2>
           <p>We do not knowingly collect data from children under 18 years of age. If we become aware of such collection, we will delete the information promptly.</p>
           <h2 className="mt-6 font-display text-2xl font-semibold text-neutral-950">5. Updates to This Policy</h2>
           <p>We may update this Privacy Policy from time to time. If we make significant changes, we will notify you via the email address you provided.</p>
