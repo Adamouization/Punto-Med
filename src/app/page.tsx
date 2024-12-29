@@ -7,9 +7,8 @@ import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StylizedImage } from '@/components/StylizedImage'
+import { StylizedVideo } from '@/components/custom/StylizedVideo'
 import { TestimonialSimple } from '@/components/custom/TestimonialSimple'
-import imageHomeAppliances from '@/images/tmp/home_appliances.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
 // const clients = [
@@ -123,11 +122,19 @@ function Services() {
         <div className="lg:flex lg:items-center lg:justify-end">
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
-              <StylizedImage
+              {/* <StylizedImage
                 src={imageHomeAppliances}
                 shape={0}
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
+              /> */}
+              <StylizedVideo
+                src="video_products.mp4"
+                shape={0}
+                className="justify-center lg:justify-end"
+                autoPlay
+                muted
+                loop
               />
             </FadeIn>
           </div>
