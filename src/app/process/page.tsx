@@ -1,6 +1,5 @@
 import { type Metadata } from 'next'
 
-import { Blockquote } from '@/components/Blockquote'
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
@@ -11,10 +10,10 @@ import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { StyledList } from '@/components/custom/StyledList';
-import { TagList, TagListItem } from '@/components/TagList'
-import imageLaptop from '@/images/laptop.jpg'
-import imageMeeting from '@/images/meeting.jpg'
-import imageWhiteboard from '@/images/whiteboard.jpg'
+import imageAssembly from '@/images/tmp/services/assembly line.jpg'
+import imageHomeAppliances from '@/images/tmp/home_appliances.jpg'
+import imageRawMaterials from '@/images/services/raw_materials/washing2.jpg'
+
 
 function Section({
   title,
@@ -65,7 +64,7 @@ function Discover() {
   ];
   
   return (
-    <Section title="Supply" image={{ src: imageWhiteboard }}>
+    <Section title="Supply" image={{ src: imageRawMaterials }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           We specialize in providing premium components and raw materials for the production of:
@@ -103,7 +102,7 @@ function Build() {
   ];
 
   return (
-    <Section title="Finished and Semi-Finished Products" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Finished and Semi-Finished Products" image={{ src: imageHomeAppliances, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           We cater to manufacturers with both Complete Knock-Down (CKD) and Completely Built-Up (CBU) solutions for:
@@ -128,7 +127,7 @@ function Build() {
 
 function Deliver() {
   return (
-    <Section title="Assembly Lines Supply" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Assembly Lines Supply" image={{ src: imageAssembly, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           To streamline production processes, we offer customized assembly line solutions.

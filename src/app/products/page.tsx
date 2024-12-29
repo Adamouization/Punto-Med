@@ -1,6 +1,5 @@
 import { type Metadata } from 'next'
 
-import { Blockquote } from '@/components/Blockquote'
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
@@ -10,11 +9,15 @@ import { List, ListItem } from '@/components/List'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
-import { StyledList } from '@/components/custom/StyledList';
-import { TagList, TagListItem } from '@/components/TagList'
-import imageLaptop from '@/images/laptop.jpg'
-import imageMeeting from '@/images/meeting.jpg'
-import imageWhiteboard from '@/images/whiteboard.jpg'
+// import imageTableCooker from '@/images/tmp/products/1table cookers.jpg'
+import imageTableCooker from '@/images/tmp/products/table cooker crop.jpg'
+// import imageGasCooker from '@/images/tmp/products/gas cooker.jpg'
+import imageGasCooker from '@/images/tmp/products/1gas cookers.jpg'
+// import imageFridge from '@/images/tmp/products/fridge.jpg'
+import imageFridge from '@/images/tmp/products/frige open.jpg'
+// import imageWashingMachine from '@/images/tmp/products/washing machine front load copy.jpg'
+import imageWashingMachine from '@/images/tmp/products/washing machine open.jpg'
+import imageChestCooler from '@/images/tmp/products/chest freezer home copy.png'
 
 function Section({
   title,
@@ -56,13 +59,8 @@ function Section({
 
 function GasCookers() {
 
-  // Glass cover, Back-guard, Cast Iron Grids, Enameled Grids, Ignition, Light, Oven Grill, Rotisserie, safety on the burners.
-  // Color : White, Black, Black Matte, Silver Matte, Full Stainless steel
-  // Personalized Handles, Knobs, Feet
-
-
   return (
-    <Section title="Gas Cookers" image={{ src: imageWhiteboard, shape: 0 }}>
+    <Section title="Gas Cookers" image={{ src: imageGasCooker, shape: 0 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Our gas cookers combine efficiency and versatility, and are available in multiple sizes and options to suit all your market needs:
@@ -91,7 +89,7 @@ function GasCookers() {
 
 function TableCookers() {
   return (
-    <Section title="Table Cookers" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Table Cookers" image={{ src: imageTableCooker, shape: 0 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Compact and efficient, our table cookers are designed for smaller spaces without compromising performance.
@@ -117,7 +115,7 @@ function TableCookers() {
 
 function Refrigerators() {
   return (
-    <Section title="Refrigerators" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Refrigerators" image={{ src: imageFridge, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           We provide a variety of refrigerators suitable for different applications, combining energy efficiency with optimal storage solutions.
@@ -135,7 +133,7 @@ function Refrigerators() {
 
 function WashingMachines() {
   return (
-    <Section title="Washing Machines" image={{ src: imageMeeting, shape: 0 }}>
+    <Section title="Washing Machines" image={{ src: imageWashingMachine, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Our washing machines are built for performance, catering to diverse load capacities and requirements:
@@ -153,7 +151,7 @@ function WashingMachines() {
 
 function BottleCoolersAndChestFreezers() {
   return (
-    <Section title="Bottle Coolers & Chest Freezers" image={{ src: imageMeeting, shape: 1 }}>
+    <Section title="Bottle Coolers & Chest Freezers" image={{ src: imageChestCooler, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           We offer bottle coolers designed for effective cooling and maximum storage efficiency, and we offer freezers designed to handle storage needs for both domestic and commercial use.

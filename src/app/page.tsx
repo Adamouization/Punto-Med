@@ -9,12 +9,7 @@ import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { TestimonialSimple } from '@/components/custom/TestimonialSimple'
-import logo1968 from '@/images/projects/building-office.svg'
-import logo1985 from '@/images/projects/wrench.svg'
-import logo1989 from '@/images/projects/computer.svg'
-import logo1993_1 from '@/images/projects/fire.svg'
-import logo1993_2 from '@/images/projects/truck.svg'
-import imageFactory from '@/images/factory_unsplash.jpg'
+import imageHomeAppliances from '@/images/tmp/home_appliances.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
 // const clients = [
@@ -129,7 +124,8 @@ function Services() {
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
-                src={imageFactory}
+                src={imageHomeAppliances}
+                shape={0}
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />
