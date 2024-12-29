@@ -22,7 +22,7 @@ function CaseStudies({
     <Container className="mt-40">
       <FadeIn>
         <h2 className="font-display text-2xl font-semibold text-neutral-950">
-          Past Projects
+          Our Past Projects
         </h2>
       </FadeIn>
       <div className="mt-10 space-y-20 sm:space-y-24 lg:space-y-32">
@@ -137,8 +137,8 @@ export default async function Work() {
   return (
     <>
       <PageIntro
-        eyebrow="Our projects"
-        title="Delivering Real Value"
+        eyebrow="Delivering Real Value"
+        title="Our projects"
       >
         <p>
           At Punto Med, we are committed to delivering real value to our customers through expertise, innovation, and unwavering dedication.

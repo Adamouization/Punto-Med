@@ -69,7 +69,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <>
-      <PageIntro eyebrow="Contact us" title="Let’s work together">
+      <PageIntro eyebrow="Let’s work together" title="Contact us">
         <p>
           We are here to assist you with any inquiries or requests. Whether you are looking for more information about our products and services or want to discuss a potential collaboration, we can&#39;t wait to hear from you.
         </p>

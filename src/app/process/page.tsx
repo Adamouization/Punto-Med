@@ -205,7 +205,7 @@ export const metadata: Metadata = {
 export default function Process() {
   return (
     <>
-      <PageIntro eyebrow="Our Services" title="How we work">
+      <PageIntro eyebrow="Learn how we work" title="Our Services">
         <p>
           At Punto Med, we are dedicated to supporting home appliance manufacturers with high-quality components, raw materials, and assembly solutions. With decades of experience and an extensive global network, we deliver reliable, tailored services to meet your production needs.
         </p>

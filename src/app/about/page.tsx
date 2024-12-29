@@ -58,8 +58,8 @@ export default async function About() {
   return (
     <>
       <PageIntro
-        eyebrow="About us"
-        title="Our strength is collaboration"
+        eyebrow="Our strength is collaboration"
+        title="About Us"
         image={imageIntro}
       >
         <p>
