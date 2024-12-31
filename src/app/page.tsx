@@ -60,7 +60,10 @@ function CaseStudies({
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          At Punto Med, we are committed to delivering real value to our customers through expertise, innovation, and unwavering dedication.
+          At Punto Med, we are committed to delivering real value to our customers through expertise, innovation, and unwavering dedication.&nbsp;
+          <Link href="/projects">
+            Read more <span aria-hidden="true">&rarr;</span>
+          </Link>
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -115,7 +118,10 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          At Punto Med, we are dedicated to supporting home appliance manufacturers with high-quality components, raw materials, and assembly solutions. With decades of experience and an extensive global network, we deliver reliable, tailored services to meet your production needs.
+          At Punto Med, we are dedicated to supporting home appliance manufacturers with high-quality components, raw materials, and assembly solutions. With decades of experience and an extensive global network, we deliver reliable, tailored services to meet your production needs.&nbsp;
+          <Link href="/services">
+            Learn more <span aria-hidden="true">&rarr;</span>
+          </Link>
         </p>
       </SectionIntro>
       <Container className="mt-16">
