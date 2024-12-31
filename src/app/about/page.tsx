@@ -46,9 +46,9 @@ function Culture() {
 }
 
 export const metadata: Metadata = {
-  title: 'About Us',
+  title: 'About Punto Med S.A.M. – Excellence Since 1984',
   description:
-    'We believe that our strength lies in our collaborative approach, which puts our clients at the center of everything we do.',
+    'Learn about Punto Med: decades of expertise, global partnerships, and innovation in the home appliances industry, delivering quality since 1984.',
 }
 
 export default async function About() {

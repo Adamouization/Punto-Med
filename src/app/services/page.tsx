@@ -197,9 +197,9 @@ function Values() {
 }
 
 export const metadata: Metadata = {
-  title: 'Our Services',
+  title: 'Punto Med S.A.M. – Expert Manufacturing Solutions',
   description:
-    'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
+    'Discover Punto Med’s tailored solutions: premium components, assembly lines, and global expertise for home appliance manufacturing excellence.',
 }
 
 export default function Process() {

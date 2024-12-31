@@ -162,8 +162,9 @@ function Services() {
 }
 
 export const metadata: Metadata = {
+  title: 'Punto Med S.A.M. – Innovators in Home Appliances',
   description:
-    'We are a development studio working at the intersection of design and technology.', // TODO: use smaller version of description
+    'Punto Med: Innovating home appliances since 1984. Explore our legacy of quality, global partnerships, and cutting-edge solutions for manufacturers worldwide.',
 }
 
 export default async function Home() {

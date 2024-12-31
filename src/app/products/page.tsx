@@ -210,9 +210,9 @@ function WhyChooseOurProducts() {
 }
 
 export const metadata: Metadata = {
-  title: 'Our Products',  // todo
+  title: 'Punto Med S.A.M. – Premium Home Appliance Products',
   description:
-    'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
+    'Premium home appliance solutions by Punto Med: gas cookers, refrigerators, washing machines, and more, designed for quality and efficiency.',
 }
 
 export default function Products() {

@@ -126,9 +126,9 @@ function CaseStudies({
 // }
 
 export const metadata: Metadata = {
-  title: 'Our Work',
+  title: 'Punto Med S.A.M. – Decades of Global Achievements',
   description:
-    'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
+    'Explore Punto Med’s milestones: decades of innovation and strategic partnerships shaping the global home appliances industry.',
 }
 
 export default async function Work() {
