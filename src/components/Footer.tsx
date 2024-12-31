@@ -10,10 +10,10 @@ const navigation = [
   {
     title: 'Company',
     links: [
-      { title: 'About Us', href: '/about' },
       { title: 'Our Products', href: '/products' },
-      { title: 'Our Services', href: '/services' },
-      { title: 'Our Projects', href: '/projects' },
+      { title: 'Our Services', href: '/process' },
+      { title: 'Our Projects', href: '/work' },
+      { title: 'About Us', href: '/about' },
     ],
   },
   {
