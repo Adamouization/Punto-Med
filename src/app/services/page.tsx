@@ -8,7 +8,7 @@ import { GridPattern } from '@/components/GridPattern'
 import { List, ListItem } from '@/components/List'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StylizedImage } from '@/components/StylizedImage'
+import { StylizedGrayscaleTransitionImage } from '@/components/custom/StylizedGrayscaleTransitionImage'
 import { StyledList } from '@/components/custom/StyledList';
 import imageAssembly from '@/images/services/assembly_line.jpg'
 import imageHomeAppliances from '@/images/services/all_appliances_padded.png'
@@ -21,7 +21,7 @@ function Section({
   children,
 }: {
   title: string
-  image: React.ComponentPropsWithoutRef<typeof StylizedImage>
+  image: React.ComponentPropsWithoutRef<typeof StylizedGrayscaleTransitionImage>
   children: React.ReactNode
 }) {
   return (
@@ -29,7 +29,7 @@ function Section({
       <div className="lg:flex lg:items-center lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20">
         <div className="flex justify-center">
           <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
-            <StylizedImage
+            <StylizedGrayscaleTransitionImage
               {...image}
               sizes="(min-width: 1024px) 41rem, 31rem"
               className="justify-center lg:justify-end lg:group-even/section:justify-start"
