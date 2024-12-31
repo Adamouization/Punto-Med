@@ -11,7 +11,8 @@ import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { StyledList } from '@/components/custom/StyledList';
 import imageAssembly from '@/images/tmp/services/assembly line.jpg'
-import imageHomeAppliances from '@/images/tmp/home_appliances.jpg'
+// import imageHomeAppliances from '@/images/tmp/home_appliances.jpg'
+import imageHomeAppliances from '@/images/tmp/services/all products crop.jpg'
 import imageRawMaterials from '@/images/services/raw_materials/washing2.jpg'
 
 

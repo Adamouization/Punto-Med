@@ -25,8 +25,8 @@ function ContactDetails() {
         </h2>
         <dl className="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
           {[
-            ['Email (International)', 'info@puntomed.com'],
-            ['Email (China)', 'info@puntomed.cn'],
+            ['Email', 'info@puntomed.com'],
+            ['Email', 'info@puntomed.cn'],
             ['Phone', '+377.97.70.68.86'],
           ].map(([label, value], index) => (
             <div key={value}>

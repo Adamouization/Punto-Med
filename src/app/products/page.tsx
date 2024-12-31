@@ -12,9 +12,11 @@ import { StylizedImage } from '@/components/StylizedImage'
 // import imageTableCooker from '@/images/tmp/products/1table cookers.jpg'
 import imageTableCooker from '@/images/tmp/products/table cooker crop.jpg'
 // import imageGasCooker from '@/images/tmp/products/gas cooker.jpg'
-import imageGasCooker from '@/images/tmp/products/1gas cookers.jpg'
+// import imageGasCooker from '@/images/tmp/products/1gas cookers.jpg'
+import imageGasCooker from '@/images/tmp/products/gas_cooker_far crop.jpg'
 // import imageFridge from '@/images/tmp/products/fridge.jpg'
-import imageFridge from '@/images/tmp/products/frige open.jpg'
+// import imageFridge from '@/images/tmp/products/frige open.jpg'
+import imageFridge from '@/images/tmp/products/frige_far copy.jpg'
 // import imageWashingMachine from '@/images/tmp/products/washing machine front load copy.jpg'
 import imageWashingMachine from '@/images/tmp/products/washing machine open.jpg'
 import imageChestCooler from '@/images/tmp/products/chest freezer home copy.png'
@@ -115,7 +117,7 @@ function TableCookers() {
 
 function Refrigerators() {
   return (
-    <Section title="Refrigerators" image={{ src: imageFridge, shape: 1 }}>
+    <Section title="Refrigerators" image={{ src: imageFridge, shape: 0 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           We provide a variety of refrigerators suitable for different applications, combining energy efficiency with optimal storage solutions.
