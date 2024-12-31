@@ -80,9 +80,8 @@ export function LogoPngAndText({ textSize = 2, className }: { textSize?: number;
       <Image
         src={logo}
         alt="Logo"
-        className="h-8"
-        width={32}
-        height={32}
+        className="h-10" // height
+        width={43}
       />
       <h1 className={`ml-3 font-display font-medium tracking-tight transition-colors duration-300 [text-wrap:balance] sm:text-${textSize}xl`}>
         Punto Med S.A.M.
