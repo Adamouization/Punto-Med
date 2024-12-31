@@ -118,7 +118,7 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          At Punto Med, we are dedicated to supporting home appliance manufacturers with high-quality components, raw materials, and assembly solutions. With decades of experience and an extensive global network, we deliver reliable, tailored services to meet your production needs.&nbsp;
+          At Punto Med, we are dedicated to supporting home appliances manufacturers and distributors with high-quality products, components, raw materials, and assembly solutions. With decades of experience and an extensive global network, we deliver reliable, tailored services to meet all your needs.&nbsp;
           <Link href="/process">
             Learn more <span aria-hidden="true">&rarr;</span>
           </Link>
@@ -146,10 +146,10 @@ function Services() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Supply of Components and Raw Materials">
-              We specialize in providing premium components and raw materials for the production of gas cookers, refrigerators, washing machines, bottle coolers, freezers.
+              We specialize in providing premium components and raw materials for the production of gas cookers, refrigerators, bottle coolers, freezers, washing machines.
             </ListItem>
             <ListItem title="Finished and Semi-Finished Products (CKD and CBU)">
-              We cater to manufacturers with both Complete Knock-Down (CKD) and Completely Built-Up (CBU) solutions.
+              We cater to distributors and retailers with both Completely-Knocked-Down (CKD) and Completely-Built-Up (CBU) solutions.
             </ListItem>
             <ListItem title="Supply of Assembly Lines">
               To streamline production processes, we offer customized assembly line solutions, including complete tailored assembly lines, installation and setup support, and ongoing technical assistance.
@@ -178,7 +178,7 @@ export default async function Home() {
             Your Partner in Excellence for Home Appliances
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            Rooted in a rich legacy, we specialize in premium components, assembly solutions, and tailored support for gas cookers, refrigerators, washing machines, and more.
+            Rooted through a rich legacy in the home appliances industry, we specialize in high-quality finished or semi-finished products, components, assembly solutions, and tailored support for gas cookers, refrigerators, freezers, bottle coolers and washing machines manufacturers and distributors.
           </p>
         </FadeIn>
       </Container>

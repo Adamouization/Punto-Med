@@ -30,6 +30,9 @@ export function TestimonialSimple({
                 {children}
               </p>
             </blockquote>
+            <p className='mt-4 font-display text-base text-neutral-950'>
+              What our clients say about us
+            </p>
           </figure>
         </FadeIn>
       </Container>

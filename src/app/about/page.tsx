@@ -60,7 +60,7 @@ export default async function About() {
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            We provide high-quality personalized home appliances to distributors and retailers, as well as components and raw materials to manufacturers of gas cookers, refrigerators, washing machines, bottle coolers, and freezers, ensuring durability and compliance with global standards. Additionally, we offer flexible solutions for both Complete Knock-Down (CKD) and Completely Built-Up (CBU) products, catering to clients' needs for fully assembled units or on-site assembly. To enhance production efficiency, we supply customized assembly lines for these appliances, complete with installation support and ongoing technical assistance.          </p>
+            We provide high-quality personalized home appliances to distributors and retailers, as well as components and raw materials to manufacturers of gas cookers, refrigerators, washing machines, bottle coolers, and freezers, ensuring durability and compliance with global standards. Additionally, we offer flexible solutions for both Complete Knock-Down (CKD) and Completely Built-Up (CBU) products, catering to clients&#39; needs for fully assembled units or on-site assembly. To enhance production efficiency, we supply customized assembly lines for these appliances, complete with installation support and ongoing technical assistance.          </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
