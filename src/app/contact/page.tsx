@@ -32,7 +32,7 @@ function ContactDetails() {
             <div key={value}>
               <dt className="font-semibold text-neutral-950">{label}</dt>
               <dd>
-                {index === 0 ? (
+                {index < 2  ? (
                   <Link
                     href={`mailto:${value}`}
                     className="text-neutral-600 hover:text-neutral-950"
