@@ -10,9 +10,8 @@ import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { StyledList } from '@/components/custom/StyledList';
-import imageAssembly from '@/images/tmp/services/assembly line.jpg'
-// import imageHomeAppliances from '@/images/tmp/home_appliances.jpg'
-import imageHomeAppliances from '@/images/tmp/services/all products crop.jpg'
+import imageAssembly from '@/images/services/assembly_line.jpg'
+import imageHomeAppliances from '@/images/services/all_appliances_padded.png'
 import imageRawMaterials from '@/images/services/raw_materials/washing2.jpg'
 
 
@@ -54,7 +53,7 @@ function Section({
   )
 }
 
-function Discover() {
+function Supply() {
 
   const items = [
     'Gas cookers',
@@ -65,7 +64,7 @@ function Discover() {
   ];
   
   return (
-    <Section title="Supply" image={{ src: imageRawMaterials }}>
+    <Section title="Supply" image={{ src: imageRawMaterials, shape: 0 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           We specialize in providing premium components and raw materials for the production of:
@@ -94,7 +93,7 @@ function Discover() {
   )
 }
 
-function Build() {
+function FinishedProducts() {
 
   const items = [
     'Gas cookers',
@@ -126,7 +125,7 @@ function Build() {
   )
 }
 
-function Deliver() {
+function Assembly() {
   return (
     <Section title="Assembly Lines Supply" image={{ src: imageAssembly, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
@@ -213,9 +212,9 @@ export default function Process() {
       </PageIntro>
 
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
-        <Discover />
-        <Build />
-        <Deliver />
+        <Supply />
+        <FinishedProducts />
+        <Assembly />
       </div>
 
       <Values />

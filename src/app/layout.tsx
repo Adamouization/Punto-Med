@@ -22,17 +22,17 @@ export const metadata: Metadata = {
     description: 'Punto Med: Innovating home appliances since 1984. Explore our legacy of quality, global partnerships, and cutting-edge solutions for manufacturers worldwide.',
     siteName: 'Punto Med S.A.M.',
     images: [{
-      url: '/og-image.jpg',
+      url: '/opengraph.png',
       width: 1200,
       height: 630,
-      alt: 'Punto Med S.A.M.',
+      alt: 'Punto Med S.A.M. image showing a Refrigerator, a washing machine, a gas cooker and a fridge.',
     }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Punto Med S.A.M. – Innovators in Home Appliances',
     description: 'Punto Med: Innovating home appliances since 1984. Explore our legacy of quality, global partnerships, and cutting-edge solutions for manufacturers worldwide.',
-    images: ['/og-image.jpg'],
+    images: ['/opengraph.png'],
   },
   robots: {
     index: true,

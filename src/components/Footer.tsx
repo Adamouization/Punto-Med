@@ -148,7 +148,7 @@ export function Footer() {
           <LogoPngAndText textSize={2} />
           </Link>
           <p className="text-sm text-neutral-700">
-            © Punto Med S.A.M. 1998-{new Date().getFullYear()}
+            © Punto Med S.A.M. {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>

@@ -9,18 +9,11 @@ import { List, ListItem } from '@/components/List'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
-// import imageTableCooker from '@/images/tmp/products/1table cookers.jpg'
-import imageTableCooker from '@/images/tmp/products/table cooker crop.jpg'
-// import imageGasCooker from '@/images/tmp/products/gas cooker.jpg'
-// import imageGasCooker from '@/images/tmp/products/1gas cookers.jpg'
-import imageGasCooker from '@/images/tmp/products/gas_cooker_far crop.jpg'
-// import imageFridge from '@/images/tmp/products/fridge.jpg'
-// import imageFridge from '@/images/tmp/products/frige open.jpg'
-import imageFridge from '@/images/tmp/products/frige_far copy.jpg'
-// import imageWashingMachine from '@/images/tmp/products/washing machine front load copy.jpg'
-import imageWashingMachine from '@/images/tmp/products/washing machine open.jpg'
-// import imageChestCooler from '@/images/tmp/products/chest freezer home copy.png'
-import imageChestCooler from '@/images/tmp/products/chest freezer home copy 2.png'
+import imageTableCooker from '@/images/products/table_cooker.jpg'
+import imageGasCooker from '@/images/products/gas_cooker_flame.jpg'
+import imageFridge from '@/images/products/fridge_extended_cropped.png'
+import imageWashingMachine from '@/images/products/washing_machine.jpg'
+import imageChestCooler from '@/images/products/chest_freezer_extended_cropped.png'
 
 function Section({
   title,
@@ -62,7 +55,7 @@ function Section({
 
 function GasCookers() {
   return (
-    <Section title="Gas Cookers" image={{ src: imageGasCooker, shape: 0 }}>
+    <Section title="Gas Cookers" image={{ src: imageGasCooker, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Our gas cookers combine efficiency and versatility, and are available in multiple sizes and options to suit all your market needs:
@@ -135,7 +128,7 @@ function Refrigerators() {
 
 function WashingMachines() {
   return (
-    <Section title="Washing Machines" image={{ src: imageWashingMachine, shape: 1 }}>
+    <Section title="Washing Machines" image={{ src: imageWashingMachine, shape: 0 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Our washing machines are built for performance, catering to diverse load capacities and requirements:
@@ -153,7 +146,7 @@ function WashingMachines() {
 
 function BottleCoolersAndChestFreezers() {
   return (
-    <Section title="Bottle Coolers & Chest Freezers" image={{ src: imageChestCooler, shape: 1 }}>
+    <Section title="Bottle Coolers & Chest Freezers" image={{ src: imageChestCooler, shape: 0 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           We offer bottle coolers designed for effective cooling and maximum storage efficiency, and we offer freezers designed to handle storage needs for both domestic and commercial use.

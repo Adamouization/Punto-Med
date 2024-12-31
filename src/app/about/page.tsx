@@ -6,7 +6,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StatList, StatListItem } from '@/components/StatList'
-import imageIntro from '@/images/Runway 2024-12-31T11_00_41.258Z Infinite Image background.png'
+import imageIntro from '@/images/about/china.png'
 
 function Culture() {
   return (
