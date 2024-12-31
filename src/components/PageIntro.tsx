@@ -51,7 +51,7 @@ export function PageIntro({
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
                 {...image}
-                shape = {0}
+                shape = {2}
                 grayscale = {false}
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center"

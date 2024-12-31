@@ -1,16 +1,13 @@
 import { type Metadata } from 'next'
-import Image from 'next/image'
 
-import { Border } from '@/components/Border'
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
-import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { GridList, GridListItem } from '@/components/GridList'
 import { PageIntro } from '@/components/PageIntro'
 import { PageLinks } from '@/components/PageLinks'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StatList, StatListItem } from '@/components/StatList'
-import imageIntro from '@/images/Fichier0006.jpeg'
+import imageIntro from '@/images/Runway 2024-12-31T11_00_41.258Z Infinite Image background.png'
 import { loadArticles } from '@/lib/mdx'
 
 function Culture() {
@@ -46,7 +43,7 @@ function Culture() {
 }
 
 export const metadata: Metadata = {
-  title: 'About Punto Med S.A.M. – Excellence Since 1984',
+  title: 'About',
   description:
     'Learn about Punto Med: decades of expertise, global partnerships, and innovation in the home appliances industry, delivering quality since 1984.',
 }
