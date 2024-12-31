@@ -56,19 +56,18 @@ export default async function About() {
         image={imageIntro}
       >
         <p>
-          With over 40 years of experience serving the Home Appliances industry, we have gathered a certain knowledge and know-how that enables us to provide an unparalleled and unmatched service.
+          With over 40 years of experience serving the Home Appliances industry, we have gathered a speccific knowledge and know-how that enables us to provide an unparalleled and unmatched service.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            We provide high-quality components and raw materials for manufacturing gas cookers, refrigerators, washing machines, bottle coolers, and freezers, ensuring durability and compliance with global standards. Additionally, we offer flexible solutions for both Complete Knock-Down (CKD) and Completely Built-Up (CBU) products, catering to manufacturers&#39; needs for fully assembled units or on-site assembly. To enhance production efficiency, we supply customized assembly lines for these appliances, complete with installation support and ongoing technical assistance.
-          </p>
+            We provide high-quality personalized home appliances to distributors and retailers, as well as components and raw materials to manufacturers of gas cookers, refrigerators, washing machines, bottle coolers, and freezers, ensuring durability and compliance with global standards. Additionally, we offer flexible solutions for both Complete Knock-Down (CKD) and Completely Built-Up (CBU) products, catering to clients' needs for fully assembled units or on-site assembly. To enhance production efficiency, we supply customized assembly lines for these appliances, complete with installation support and ongoing technical assistance.          </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
           <StatListItem value="Since 1984" label="Experience spanning five decades" />
           <StatListItem value="Global Reach" label="Trusted by clients worldwide" />
-          <StatListItem value="Trusted Expertise" label="Home Appliances, Built to Last" />
+          <StatListItem value="Trusted Expertise" label="Home Appliances, built to last" />
         </StatList>
       </Container>
 

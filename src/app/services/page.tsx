@@ -105,11 +105,11 @@ function FinishedProducts() {
     <Section title="Finished and Semi-Finished Products" image={{ src: imageHomeAppliances, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We cater to manufacturers with both Complete Knock-Down (CKD) and Completely Built-Up (CBU) solutions for:
+          We cater to distributors and retailers with both Complete Knock-Down (CKD) and Completely Built-Up (CBU) solutions for:
         </p>
         <StyledList items={items} />
         <p>
-          Whether you need fully assembled units or parts for on-site assembly, we provide flexible options to fit your manufacturing requirements.
+          Whether you need fully assembled units or disassembled parts for on-site assembly, we provide flexible options to match your requirements.
         </p>
       </div>
 
@@ -138,10 +138,6 @@ function Assembly() {
           <li>Ongoing technical assistance to ensure smooth operations and minimal downtime.</li>
         </ul> */}
       </div>
-
-      <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
-      </h3>
       <List className="mt-8">
         <ListItem title="Tailored Assembly Lines">
           Complete assembly lines tailored for gas cookers, refrigerators, and washing machines.
@@ -207,13 +203,13 @@ export default function Process() {
     <>
       <PageIntro eyebrow="Learn how we work" title="Our Services">
         <p>
-          At Punto Med, we are dedicated to supporting home appliance manufacturers with high-quality components, raw materials, and assembly solutions. With decades of experience and an extensive global network, we deliver reliable, tailored services to meet your production needs.
+          At Punto Med, we are dedicated to supporting home appliance distributors and manufacturers with high-quality products, assembly solutions, components and raw materials. With decades of experience and an extensive global network, we deliver reliable, tailored services to meet your production needs.
         </p>
       </PageIntro>
 
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
-        <Supply />
         <FinishedProducts />
+        <Supply />
         <Assembly />
       </div>
 

@@ -215,7 +215,7 @@ export default function Products() {
     <>
       <PageIntro eyebrow="Discover what we offer" title="Our Products">
         <p>
-          At Punto Med, we pride ourselves on offering a diverse range of high-quality home appliances tailored to meet the needs of manufacturers and markets around the globe. From compact solutions to large-scale appliances, our products are designed with functionality, durability, and efficiency in mind.
+          At Punto Med, we pride ourselves on offering a diverse range of high-quality home appliances tailored to meet the needs of our clients and their markets. From compact solutions to large-scale appliances, our products are designed with functionality, durability, and efficiency in mind.
         </p>
       </PageIntro>
 
