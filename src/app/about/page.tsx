@@ -10,7 +10,6 @@ import { PageIntro } from '@/components/PageIntro'
 import { PageLinks } from '@/components/PageLinks'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StatList, StatListItem } from '@/components/StatList'
-import { StyledList } from '@/components/custom/StyledList';
 import imageIntro from '@/images/Fichier0006.jpeg'
 import { loadArticles } from '@/lib/mdx'
 
@@ -67,7 +66,8 @@ export default async function About() {
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Ultrices risus litora pulvinar massa inceptos leo amet. Consectetur magna aenean integer scelerisque vulputate nullam dui elit semper. Elementum primis blandit nulla elementum felis faucibus augue faucibus dapibus. Justo magna dis sapien ornare nisi magnis primis auctor a! Interdum ipsum curae molestie elit cursus. Enim in semper tempor nec id maecenas lectus. Netus sollicitudin morbi enim rutrum sed scelerisque integer vestibulum. Posuere nec fusce; vehicula nibh aenean venenatis nullam ultricies.          </p>
+            We provide high-quality components and raw materials for manufacturing gas cookers, refrigerators, washing machines, bottle coolers, and freezers, ensuring durability and compliance with global standards. Additionally, we offer flexible solutions for both Complete Knock-Down (CKD) and Completely Built-Up (CBU) products, catering to manufacturers' needs for fully assembled units or on-site assembly. To enhance production efficiency, we supply customized assembly lines for these appliances, complete with installation support and ongoing technical assistance.
+          </p>
         </div>
       </PageIntro>
       <Container className="mt-16">

@@ -138,12 +138,12 @@ function Navigation() {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/about">About Us</NavigationItem>
         <NavigationItem href="/products">Our Products</NavigationItem>
+        <NavigationItem href="/process">Our Services</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process">Our Services</NavigationItem>
         <NavigationItem href="/work">Our Projects</NavigationItem>
+        <NavigationItem href="/about">About Us</NavigationItem>
       </NavigationRow>
     </nav>
   )
