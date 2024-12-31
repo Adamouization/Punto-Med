@@ -84,10 +84,10 @@ function GasCookers() {
 
 function TableCookers() {
   return (
-    <Section title="Table Cookers" image={{ src: imageTableCooker, shape: 0 }}>
+    <Section title="Table Cookers & Built-in Hobs" image={{ src: imageTableCooker, shape: 0 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Compact and efficient, our table cookers are designed for smaller spaces without compromising performance.
+          Compact and efficient, our table cookers built-in hobs and are designed for smaller spaces without compromising performance.
         </p>
         <List className="mt-8">
           <ListItem title="Options">
