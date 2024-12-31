@@ -65,13 +65,13 @@ function GasCookers() {
             20”, 24”, and 30”.
           </ListItem>
           <ListItem title="Customizations">
-            Glass cover, Back-guard, Cast Iron Grids, Enameled Grids, Ignition, Light, Oven Grill, Rotisserie, safety on the burners.
+            Glass cover, Backguard, Cast Iron Grids, Enameled Grids, Ignition, Light, Oven Grill, Rotisserie, safety on the burners.
           </ListItem>
           <ListItem title="Colors">
             White, Black, Black Matte, Silver Matte, Full Stainless steel.
           </ListItem>
           <ListItem title="Designs">
-            Personalized Handles, Knobs, Feet
+            Personalized features and accessories.
           </ListItem>
         </List>
         <p>
@@ -94,13 +94,13 @@ function TableCookers() {
             Available in different sizes with 1 burner to 4 burners, ideal for portable or limited-space cooking requirements.
           </ListItem>
           <ListItem title="Colors">
-            White, Black, Black Matte, Silver Matte, Full Stainless steel
+            White, Black, Black Matte, Silver Matte, Full Stainless steel.
           </ListItem>
           <ListItem title="Optional">
-            Ignition, working top cover
+            Ignition, working top cover.
           </ListItem>
           <ListItem title="Designs">
-            Personalized knobs
+            Personalized knobs.
           </ListItem>
         </List>
       </div>
