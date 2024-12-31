@@ -11,9 +11,9 @@ import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedGrayscaleTransitionImage } from '@/components/custom/StylizedGrayscaleTransitionImage'
 import imageTableCooker from '@/images/products/table_cooker.jpg'
 import imageGasCooker from '@/images/products/gas_cooker_flame.jpg'
-import imageFridge from '@/images/products/fridge_extended_cropped.png'
+import imageFridge from '@/images/products/fridge_extended.png'
 import imageWashingMachine from '@/images/products/washing_machine.jpg'
-import imageChestCooler from '@/images/products/chest_freezer_extended_cropped.png'
+import imageChestCooler from '@/images/products/chest_freezer.png'
 
 function Section({
   title,
@@ -100,7 +100,7 @@ function TableCookers() {
             Ignition, working top cover.
           </ListItem>
           <ListItem title="Designs">
-            Personalized knobs.
+            Personalized features.
           </ListItem>
         </List>
       </div>
@@ -131,7 +131,7 @@ function WashingMachines() {
     <Section title="Washing Machines" image={{ src: imageWashingMachine, shape: 0 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Our washing machines are built for performance, catering to diverse load capacities and requirements:
+          Our washing machines are built for performance, catering to diverse load capacities and requirements.
         </p>
         <p>
           Capacity Range: From 5 kg to 18 kg.
@@ -158,7 +158,7 @@ function BottleCoolersAndChestFreezers() {
           Bottle Coolers door options: Available with hinged or sliding doors.
         </p>
         <p>
-          Freezers: built to maintain consistent freezing performance for long-term use.
+          Freezers: Built to maintain consistent freezing performance for long-term use.
         </p>
       </div>
     </Section>
