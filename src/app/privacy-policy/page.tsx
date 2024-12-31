@@ -1,3 +1,5 @@
+import { type Metadata } from 'next'
+
 import { Container } from '@/components/Container'
 import { PageIntro } from '@/components/PageIntro'
 import { FadeIn } from '@/components/FadeIn'
@@ -35,4 +37,9 @@ export default function PrivacyPolicy() {
       </FadeIn>
     </Container>
   )
+}
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy',
+  description: 'Our privacy policy.',
 }

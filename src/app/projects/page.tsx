@@ -126,7 +126,7 @@ function CaseStudies({
 // }
 
 export const metadata: Metadata = {
-  title: 'Punto Med S.A.M. – Decades of Global Achievements',
+  title: 'Projects',
   description:
     'Explore Punto Med’s milestones: decades of innovation and strategic partnerships shaping the global home appliances industry.',
 }

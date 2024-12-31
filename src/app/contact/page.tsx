@@ -59,7 +59,7 @@ function ContactDetails() {
 }
 
 export const metadata: Metadata = {
-  title: 'Contact Punto Med S.A.M. – Let’s Collaborate',
+  title: 'Contact',
   description: 'Connect with Punto Med for reliable home appliance solutions, trusted expertise, and personalized support for manufacturers worldwide.',
 }
 

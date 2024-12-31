@@ -7,7 +7,7 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Punto Med',
+    template: 'Punto Med - %s',
     default: 'Punto Med S.A.M.',
   },
   description: 'Punto Med: Innovating home appliances since 1984. Explore our legacy of quality, global partnerships, and cutting-edge solutions for manufacturers worldwide.',

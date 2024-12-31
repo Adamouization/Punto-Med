@@ -19,7 +19,8 @@ import imageGasCooker from '@/images/tmp/products/gas_cooker_far crop.jpg'
 import imageFridge from '@/images/tmp/products/frige_far copy.jpg'
 // import imageWashingMachine from '@/images/tmp/products/washing machine front load copy.jpg'
 import imageWashingMachine from '@/images/tmp/products/washing machine open.jpg'
-import imageChestCooler from '@/images/tmp/products/chest freezer home copy.png'
+// import imageChestCooler from '@/images/tmp/products/chest freezer home copy.png'
+import imageChestCooler from '@/images/tmp/products/chest freezer home copy 2.png'
 
 function Section({
   title,
@@ -60,7 +61,6 @@ function Section({
 }
 
 function GasCookers() {
-
   return (
     <Section title="Gas Cookers" image={{ src: imageGasCooker, shape: 0 }}>
       <div className="space-y-6 text-base text-neutral-600">
@@ -212,7 +212,7 @@ function WhyChooseOurProducts() {
 }
 
 export const metadata: Metadata = {
-  title: 'Punto Med S.A.M. – Premium Home Appliance Products',
+  title: 'Products',
   description:
     'Premium home appliance solutions by Punto Med: gas cookers, refrigerators, washing machines, and more, designed for quality and efficiency.',
 }
