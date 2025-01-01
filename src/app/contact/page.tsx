@@ -28,6 +28,7 @@ function ContactDetails() {
             ['Email', 'info@puntomed.com'],
             ['Email', 'info@puntomed.cn'],
             ['Phone', '+377.97.70.68.86'],
+            ['Phone', '+86.20.85.58.12.14'],
           ].map(([label, value], index) => (
             <div key={value}>
               <dt className="font-semibold text-neutral-950">{label}</dt>
