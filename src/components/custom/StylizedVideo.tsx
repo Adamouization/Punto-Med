@@ -52,23 +52,29 @@ export function StylizedVideo({
         grayscale && 'grayscale'
       )}
     >
-      <svg viewBox={`0 0 ${width} ${height}`} fill="none" className="h-full">
+      <svg viewBox={`0 0 ${width} ${height}`} fill="none" className="h-full w-full">
         <g clipPath={`url(#${id}-clip)`} className="group">
           <g className="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
             <foreignObject width={width} height={height}>
-              <video
-                className="h-full w-full object-cover"
-                style={{ aspectRatio: `${width} / ${height}` }}
-                autoPlay={autoPlay}
-                muted={muted}
-                loop={loop}
-                controls={controls}
-                playsInline
-                {...props}
-              >
-                <source src={src} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <div className="h-full w-full">
+                <video
+                  className="h-full w-full bg-neutral-100 object-cover"
+                  style={{ 
+                    aspectRatio: `${width} / ${height}`,
+                    width: '100%',
+                    height: '100%'
+                  }}
+                  autoPlay={autoPlay}
+                  muted={muted}
+                  loop={loop}
+                  controls={controls}
+                  playsInline
+                  {...props}
+                >
+                  <source src={src} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
             </foreignObject>
           </g>
           <use
