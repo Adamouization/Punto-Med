@@ -48,19 +48,28 @@ export function StylizedVideo({
     <div
       className={clsx(
         className,
-        'relative flex aspect-[719/680] w-full',
+        'relative flex w-full overflow-hidden',
         grayscale && 'grayscale'
       )}
+      style={{
+        aspectRatio: `${width} / ${height}`,
+        maxHeight: '680px',
+        contain: 'paint layout size'
+      }}
     >
-      <svg viewBox={`0 0 ${width} ${height}`} fill="none" className="h-full w-full">
+      <svg 
+        viewBox={`0 0 ${width} ${height}`} 
+        fill="none" 
+        className="absolute inset-0 h-full w-full"
+        preserveAspectRatio="none"
+      >
         <g clipPath={`url(#${id}-clip)`} className="group">
           <g className="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
             <foreignObject width={width} height={height}>
-              <div className="h-full w-full">
+              <div className="absolute inset-0 h-full w-full">
                 <video
-                  className="h-full w-full bg-neutral-100 object-cover"
+                  className="absolute inset-0 h-full w-full bg-neutral-100 object-cover"
                   style={{ 
-                    aspectRatio: `${width} / ${height}`,
                     width: '100%',
                     height: '100%'
                   }}
