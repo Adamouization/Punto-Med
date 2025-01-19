@@ -18,7 +18,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in the browser. The site will auto-update as files are edited.
 
-## Contact
+## Contact 
 * Email: adam[at]jaamour[dot]com
 * Linktree: [linktr.ee/adamouization](https://linktr.ee/adamouization)
 * LinkedIn: [linkedin.com/in/adamjaamour](https://www.linkedin.com/in/adamjaamour/)
