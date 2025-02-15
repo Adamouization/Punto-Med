@@ -56,7 +56,7 @@ export default async function About() {
         image={imageIntro}
       >
         <p>
-          With over 40 years of experience serving the Home Appliances industry, we have gathered a speccific knowledge and know-how that enables us to provide an unparalleled and unmatched service.
+          With over 40 years of experience serving the Home Appliances industry, we have gathered a specific knowledge and know-how that enables us to provide an unparalleled and unmatched service.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
