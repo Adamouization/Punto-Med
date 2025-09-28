@@ -54,13 +54,46 @@ export function StylizedVideo({
       style={{
         aspectRatio: `${width} / ${height}`,
         maxHeight: '680px',
-        contain: 'paint layout size'
+        contain: 'paint layout size',
+        willChange: 'transform',
+        transform: 'translateZ(0)', // Force hardware acceleration
+        isolation: 'isolate' // Create new stacking context
       }}
     >
+      {/* Mobile fallback - direct video with CSS clip-path */}
+      <video
+        className={clsx(
+          'absolute inset-0 h-full w-full bg-neutral-100 object-cover',
+          'md:hidden' // Show only on mobile
+        )}
+        style={{ 
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          objectPosition: 'center',
+          clipPath: `path('${path}')`,
+          WebkitClipPath: `path('${path}')`,
+          willChange: 'transform',
+          transform: 'translateZ(0)', // Force hardware acceleration
+          backfaceVisibility: 'hidden'
+        }}
+        autoPlay={autoPlay}
+        muted={muted}
+        loop={loop}
+        controls={controls}
+        playsInline
+        preload="metadata"
+        {...props}
+      >
+        <source src={src} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Desktop SVG version */}
       <svg 
         viewBox={`0 0 ${width} ${height}`} 
         fill="none" 
-        className="absolute inset-0 h-full w-full"
+        className="absolute inset-0 h-full w-full hidden md:block"
         preserveAspectRatio="none"
       >
         <g clipPath={`url(#${id}-clip)`} className="group">
@@ -71,13 +104,19 @@ export function StylizedVideo({
                   className="absolute inset-0 h-full w-full bg-neutral-100 object-cover"
                   style={{ 
                     width: '100%',
-                    height: '100%'
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: 'center',
+                    willChange: 'transform',
+                    transform: 'translateZ(0)', // Force hardware acceleration
+                    backfaceVisibility: 'hidden'
                   }}
                   autoPlay={autoPlay}
                   muted={muted}
                   loop={loop}
                   controls={controls}
                   playsInline
+                  preload="metadata"
                   {...props}
                 >
                   <source src={src} type="video/mp4" />
